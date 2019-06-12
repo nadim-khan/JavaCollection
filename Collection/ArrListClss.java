@@ -1,10 +1,9 @@
-package Collection;
+package collection;
 import java.util.*;
 
 class ArrListClss{
 	public static void main(String[] args){
 		int count=0;
-		int duplicates=0;
 		 ArrayList<String> lst=new ArrayList<String>();// Creating array list with lst object.
 		 lst.add("Nadeem");
 		 lst.add("Nadeem1");
@@ -20,7 +19,7 @@ class ArrListClss{
 		 lst.add("Vijay");  
 		 lst.add("Ravi");  
 		 lst.add("Ajay");  
-		 Iterator iter=lst.iterator();
+		 Iterator<String> iter=lst.iterator();
 		 while(iter.hasNext()){
 			 count++;
 			 try{

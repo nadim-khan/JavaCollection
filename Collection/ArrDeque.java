@@ -1,10 +1,9 @@
-package Collection;
+package collection;
 import java.util.*;
 
-public class ArrDeque {
-	  
+public class ArrDeque {	  
 	public static void main(String[] args) {  
-		int count=0;
+	int count=0;
 	//Creating Deque and adding elements  
 	Deque<String> deque = new ArrayDeque<String>();  
 	deque.add("Gautam");  
@@ -22,9 +21,7 @@ public class ArrDeque {
 			 System.out.println("Exception Occured");
 		 }finally{
 			 System.out.println(count+". "+str);
-		 }
-	 
+		 }	 
 	}  
-	}  
-
+	} 
 }
